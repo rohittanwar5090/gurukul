@@ -1,24 +1,24 @@
 import React from 'react'
 
-function CertificateHeader() {
+function CertificateHeader({src , mainHeading , subHead, height}) {
     return (
         <div
             style={{
-                backgroundImage: "url('/images/p1.jpeg')",
+                backgroundImage: `url(${src})`,
                 backgroundPosition: 'top center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
-                height: '100vh'
+                height: `${height}`
             }}
-            className='px-2 lg:px-0 mt-24 grid place-items-center'
+            className='px-2 lg:px-0 '
         >
-            <div className='text-center capitalize lg:w-3/5'>
-                <h1 className='text-3xl lg:text-4xl font-extrabold text-[#FFFFFF] '
+            <div className='text-center capitalize pt-40  font-black '>
+                <h1 className='text-5xl lg:text-4xl  text-[#FFFFFF] bg-vlue'
                 >
-                    प्रतिष्ठा परम्परा: अनुशासन:
+                    {mainHeading}
                 </h1>
-                <h6 className='text-white text-lg lg:text-xl my-10 font-bold'>
-                A Great Place For Education.
+                <h6 className='font-sans text-white text-xl lg:text-xl my-10 font-bold'>
+                {subHead}
                 </h6>
             </div>
             

@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeLead() {
     return (
-        <div className={`bg-[#081953] px-10 py-5 lg:grid grid-cols-4 mt-20 lg:px-12 lg:py-10`}>
+        <div className={`bg-gradient-to-r from-[#025091] to-[#71C5EE] px-10 py-5 lg:grid grid-cols-4 mt-20 lg:px-12 lg:py-10`}>
             <div className='col-span-1 rounded-full '>
                 <img src="/images/logo/logo.png" className='w-48 h-auto object-cover  mx-auto' alt="brochure-img" />
             </div>
@@ -12,7 +12,7 @@ function HomeLead() {
                     <div className='text-white'>
                         <h1 className='text-2xl'>SANSKAR GURUKUL</h1>
                         <p className='text-lg my-4'>
-                        was established in 2013 as an institution of repute under the able leadership of Mr. Dharmendra Bhardwaj, Chairman Mahaveer Educational Park with an aim to provide international standards of excellence in higher education in law, a prominent sector of higher education.
+                        Under the auspices of the Lal Singh and Prakashi Devi Memorial Trust, Sanskar Gurukul was founded in 2020 as a reputable institution with the mission of delivering higher education of the highest calibre to students with aspirations of becoming mature professionals who are compassionate, considerate, and professional. As we participate in excellent teaching, cutting-edge and significant research, and significant outreach, our goal is to develop competent, dedicated, and reflective professionals.
                         </p>
                     </div>
                     {/* <div className='lg:flex space-y-4 lg:space-y-0 gap-x-10'>

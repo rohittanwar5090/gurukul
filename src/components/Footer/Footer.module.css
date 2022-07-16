@@ -1,0 +1,27 @@
+.footer {
+  background-image: linear-gradient(to right , #025091, #1e6caa, #3889c1, #53a7d8, #71c5ee);
+    color: #fff;
+  }
+  
+  .footer .fa-stack {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer h4 {
+    margin-bottom: 1rem;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 13px;
+    position: relative;
+  }
+  
+  .footer h4:before {
+    content: "";
+    background: -webkit-linear-gradient(left, #eb721a 0%, #f48b3e 100%);
+    height: 5px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+  }
+  

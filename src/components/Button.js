@@ -1,17 +1,15 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import ContactUs from '../components/Contact/ContactUs'
-import Loader from '../components/Loader';
-import useLoader from '../components/useLoader';
-// import GoogleMap from '../components/Contact/GoogleMap'
+import React from 'react';
+import './Button.css';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
-function Contact() {
-  const loading = useLoader();
+export function Button() {
+  
   return (
-    < >
+    <>
       <Helmet>
         <title>
-          Contact-Honor Above All
+        PayFee
         </title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -42,26 +40,13 @@ function Contact() {
         <meta
           content="Honor Above All "
           property="twitter:description"
-        />
+        />        
         <meta property="og:type" content="website" />
       </Helmet>
-      {
-        loading ? (
-          <Loader loading={loading} />
-        ) : (
-          <>
-            <ContactUs />
-            <div>
-              <h1 className='flex justify-center mt-20 mb-20 font-bold text-2xl'>Get in touch</h1>
-              {/* <GoogleMap/> */}
-            </div>
-          </>
-        )
-      }
-
-
+      <Link to='Pay'>
+      <button className='btn bg-gradient-to-r from-[#025091] to-[#71C5EE]'>Pay Fee</button>
+    </Link>
     </>
-  )
+    
+  );
 }
-
-export default Contact
