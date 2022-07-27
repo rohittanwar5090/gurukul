@@ -50,11 +50,12 @@ function Contact() {
           <Loader loading={loading} />
         ) : (
           <>
-            <ContactUs />
-            <div>
-              <h1 className='flex justify-center mt-20 mb-20 font-bold text-2xl'>Get in touch</h1>
+          <div>
+              <h1 className='flex justify-center my-16 font-bold text-5xl'>Get in touch</h1>
               {/* <GoogleMap/> */}
             </div>
+            <ContactUs />
+            
           </>
         )
       }

@@ -54,6 +54,7 @@ function Service() {
           <Loader loading={loading} />
         ) : (
           <>
+          <CourseHeader />
             <h1 className='text-center text-4xl mt-4 bg-gradient-to-r from-[#025091] to-[#71C5EE] p-4 w-48 mx-auto text-white rounded-lg'>COURSES</h1>
             <div className='grid grid-cols-1 gap-4 mx-auto md:grid-cols-4 '>
               <OurCourses title={'Professional Courses'} courses={ProfessionalCourses} />
@@ -64,7 +65,7 @@ function Service() {
           </>
         )
       }
-      <CourseHeader />
+      
 
     </>
   )

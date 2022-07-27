@@ -7,7 +7,7 @@ import styles from '../components/Footer/Footer.module.css'
 function Footer() {
     return (
         <>
-            <div className={`${styles.footer} px-8 lg:px-16 py-10 grid lg:grid-cols-4`}>
+            <div className={`${styles.footer} px-8 mt-20 lg:px-16 py-10 grid lg:grid-cols-4`}>
                 <div className='lg:col-span-1'>
                     {/* <span className="fa-stack">
                         <a href="/">
