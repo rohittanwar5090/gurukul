@@ -45,7 +45,7 @@ function Footer() {
                     <div >
                         <h4>About Sanskar Gurukul</h4>
                         <p>
-                            A great Place to stduy.
+                            A great Place to study.
                         </p>
                     </div>
                 </div>
