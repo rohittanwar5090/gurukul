@@ -1,10 +1,10 @@
 import React from 'react'
-
+import logo from '../../Images/logo/logo.png'
 function HomeLead() {
     return (
         <div className={`bg-gradient-to-r from-[#025091] to-[#71C5EE] px-10 py-5 lg:grid grid-cols-4 mt-20 lg:px-12 lg:py-10`}>
             <div className='col-span-1 rounded-full '>
-                <img src="/images/logo/logo.png" className='w-48 h-auto object-cover  mx-auto' alt="brochure-img" />
+                <img src={logo} className='w-48 h-auto object-cover  mx-auto' alt="brochure-img" />
             </div>
 
             <div className="col-span-3 text-center lg:text-left mt-5 space-y-5 lg:space-y-0 lg:mt-0 lg:flex justify-center items-center gap-x-5 lg:px-5">

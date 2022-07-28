@@ -1,4 +1,5 @@
 import React from 'react'
+import coursesheader from '../../Images/coursesheader.png'
 function CourseHeader() {
     return (
         <div className='p-5 lg:px-8'>
@@ -9,7 +10,7 @@ function CourseHeader() {
                     </p>
                 </div>
                 <div className='lg:col-span-1 mt-8 lg:mt-0 flex justify-center items-center '>
-                    <img src='/images/coursesheader.png' className='w-full lg:w-4/5 h-auto object-contain' alt="features-header" />
+                    <img src={coursesheader} className='w-full lg:w-4/5 h-auto object-contain' alt="features-header" />
                 </div>
             </div>
             {/* <div className='text-[#186FC5] font-bold text-center px-4 lg:px-10 py-5'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Copyright from '../components/Footer/Copyright'
 import styles from '../components/Footer/Footer.module.css'
-
+import logo from '../Images/logo/logo.png'
 
 function Footer() {
     return (
@@ -99,7 +99,7 @@ function Footer() {
                 <div className='lg:col-span-1  mt-5 lg:mt-0'>
                     <Link to='/' >
                         <img
-                            src='/images/logo/logo.png'
+                            src={logo}
                             alt="Sanskar Gurukul"
                             className=' px-2  w-4/5 h-4/5'
                         />

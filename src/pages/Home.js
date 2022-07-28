@@ -8,7 +8,9 @@ import HomeRow from '../components/Home/HomeRow'
 import Vision from '../components/Home/Vision'
 import Loader from '../components/Loader'
 import useLoader from '../components/useLoader'
-import pic from './p1.jpeg'
+import backgroundimagehome from '../Images/backgroundimagehome.jpeg'
+import law from '../Images/law.jpeg'
+import management from '../Images/management.jpeg'
 function Home() {
   const loading = useLoader()
   return (
@@ -55,7 +57,7 @@ function Home() {
         ) : (
           <> 
           <HomeHeader
-        src={pic}
+        src={backgroundimagehome}
         mainHeading='प्रतिष्ठा: परम्परा: अनुशासन:'
         subHead='A Great Place For Education.'
         height='100vh'
@@ -63,13 +65,13 @@ function Home() {
       <div className=''>
         <div className='max-w-6xl mx-auto'>
           <HomeRow
-            src='/images/audi.jpeg'
+            src={law}
             mainheading='Sanskar Gurukul School of Law'
             maintext='Legal education in India is governed by the Bar Council of India, a statutory organisation established in accordance with section 4 of the Advocates Act of 1961. The Bar Council of India must approve every institution in India that provides legal education. Sanskar Gurukul vigorously complies with the laws and regulations established by BCI while presenting the society with its prospective future legal advisors.'
             first
           />
           <HomeRow
-            src='/images/student1.jpeg'
+            src={management}
             mainheading='Sanskar Gurukul School of Management'
             maintext='With the unique features of systems orientation and a blend of creativity and analytical problem-solving skills, MBA is aimed to develop holistic managers who internalize a synthesis of conventional and modern management – thinking and who can comfortably adapt to changing business requirements. The program provides the students with various routes to the industry, matching its requirements with their skills and predispositions.'
           />
