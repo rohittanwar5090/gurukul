@@ -1,19 +1,28 @@
 {
   "files": {
     "main.css": "/gurukul/static/css/main.03280b55.css",
-    "main.js": "/gurukul/static/js/main.d5b26b57.js",
+    "main.js": "/gurukul/static/js/main.8b655516.js",
     "static/js/787.6cea4728.chunk.js": "/gurukul/static/js/787.6cea4728.chunk.js",
-    "static/media/p1.jpeg": "/gurukul/static/media/p1.02dcf2aa282f8bb8e2a0.jpeg",
+    "static/media/law.jpeg": "/gurukul/static/media/law.3c3e920d590384791bd4.jpeg",
+    "static/media/management.jpeg": "/gurukul/static/media/management.94980d6deb3d4e847173.jpeg",
+    "static/media/coursesheader.png": "/gurukul/static/media/coursesheader.78267b820e45a52d4dc2.png",
+    "static/media/backgroundimagehome.jpeg": "/gurukul/static/media/backgroundimagehome.02dcf2aa282f8bb8e2a0.jpeg",
     "static/media/ragging.webp": "/gurukul/static/media/ragging.6e51ba5b6d95caa199e7.webp",
+    "static/media/legacy.jpeg": "/gurukul/static/media/legacy.42644f457b3971fcc3e2.jpeg",
     "static/media/courses.webp": "/gurukul/static/media/courses.1e25dd19606a772f6f4a.webp",
+    "static/media/wecarewealth.png": "/gurukul/static/media/wecarewealth.498ad4ac0137c948738d.png",
+    "static/media/discipline.jpeg": "/gurukul/static/media/discipline.0649ee2ce026129df836.jpeg",
+    "static/media/logo.png": "/gurukul/static/media/logo.eb4db58ca3cb5f98f284.png",
     "static/media/vp.jpeg": "/gurukul/static/media/vp.a67dfa26d42220eeb690.jpeg",
+    "static/media/wecarelife.png": "/gurukul/static/media/wecarelife.3d20b6ff442ff82d4faf.png",
+    "static/media/prestige.jpeg": "/gurukul/static/media/prestige.2f7060d87af04d866f3e.jpeg",
     "index.html": "/gurukul/index.html",
     "main.03280b55.css.map": "/gurukul/static/css/main.03280b55.css.map",
-    "main.d5b26b57.js.map": "/gurukul/static/js/main.d5b26b57.js.map",
+    "main.8b655516.js.map": "/gurukul/static/js/main.8b655516.js.map",
     "787.6cea4728.chunk.js.map": "/gurukul/static/js/787.6cea4728.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03280b55.css",
-    "static/js/main.d5b26b57.js"
+    "static/js/main.8b655516.js"
   ]
 }
